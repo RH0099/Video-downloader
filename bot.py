@@ -1,8 +1,9 @@
+
 from apify_client import ApifyClient
 
 # Initialize the ApifyClient with your Apify API token
 # Replace '<YOUR_API_TOKEN>' with your token.
-client = ApifyClient("<7551049610:AAG2cCdhEjKU8RSn_qgP87urZr1C4AYEzWk>")
+client = ApifyClient("7551049610:AAG2cCdhEjKU8RSn_qgP87urZr1C4AYEzWk")
 
 # Prepare the Actor input
 run_input = { "video_urls": ["https://www.terabox.com/sharing/embed?surl=Aniwje1yO1cWz0uiVHud_A&resolution=720&autoplay=true&mute=false&uk=4400272805412&fid=305068574050618"] }
